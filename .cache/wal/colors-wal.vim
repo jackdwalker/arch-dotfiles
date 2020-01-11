@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/user/wallpapers/nice.jpg"
+let background = "#20191f"
+let foreground = "#d0dfe4"
+let cursor     = "#d0dfe4"
+
+" Colors
+let color0  = "#20191f"
+let color1  = "#6B857B"
+let color2  = "#A37E82"
+let color3  = "#76948E"
+let color4  = "#93A5A3"
+let color5  = "#D0B4B1"
+let color6  = "#B2C9CC"
+let color7  = "#d0dfe4"
+let color8  = "#919c9f"
+let color9  = "#6B857B"
+let color10 = "#A37E82"
+let color11 = "#76948E"
+let color12 = "#93A5A3"
+let color13 = "#D0B4B1"
+let color14 = "#B2C9CC"
+let color15 = "#d0dfe4"

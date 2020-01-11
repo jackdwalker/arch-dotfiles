@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/user/wallpapers/nice.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#20191f",
+        "foreground": "#d0dfe4",
+        "cursor": "#d0dfe4"
+    },
+    "colors": {
+        "color0": "#20191f",
+        "color1": "#6B857B",
+        "color2": "#A37E82",
+        "color3": "#76948E",
+        "color4": "#93A5A3",
+        "color5": "#D0B4B1",
+        "color6": "#B2C9CC",
+        "color7": "#d0dfe4",
+        "color8": "#919c9f",
+        "color9": "#6B857B",
+        "color10": "#A37E82",
+        "color11": "#76948E",
+        "color12": "#93A5A3",
+        "color13": "#D0B4B1",
+        "color14": "#B2C9CC",
+        "color15": "#d0dfe4"
+    }
+}

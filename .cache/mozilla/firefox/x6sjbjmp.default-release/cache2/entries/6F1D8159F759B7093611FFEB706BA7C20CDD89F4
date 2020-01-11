@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:html="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta content="text/html; charset=utf-8"></meta><link rel="stylesheet" href="/skin/gtkdoc.css" type="text/css"></link><link rel="stylesheet" type="text/css" media="all" href="https://static.gnome.org/css/grass-theme-style.css"></link><link rel="stylesheet" type="text/css" media="all" href="/skin/lgo2010.css"></link><link rel="icon" type="image/png" href="/skin/gnome-16.png"></link><link rel="SHORTCUT ICON" type="image/png" href="/skin/gnome-16.png"></link><link rel="search" type="application/opensearchdescription+xml" href="/gnome-library-search.xml" title="GNOME Library Search"></link><link rel="stylesheet" type="text/css" href="/skin/jquery.autocomplete.css"></link><script type="text/javascript" src="/js/jquery.js"></script><script type="text/javascript" src="/js/jquery.autocomplete.js"></script><title>Pango Reference Manual: Pango Reference Manual</title><link href="index.html" rel="home" title="Pango Reference Manual"></link><link href="pango.html" rel="next" title="Basic Pango Interfaces"></link><link rel="stylesheet" type="text/css" media="all" href="/skin/jquery.autocomplete.css"></link><link rel="stylesheet" type="text/css" media="all" href="/skin/960_24_col.css"></link><script type="text/javascript" src="/js/jquery.js"></script><script type="text/javascript" src="/js/jquery.jcarousel.min.js"></script><script type="text/javascript" src="/js/jquery.autocomplete.js"></script></head><body><div id="accessibility_access"><ul><li><a href="#container">Go to page content</a></li><li><a href="#top_bar">Go to main menu</a></li><li><a href="#s" onclick="$('#s').focus(); return false;">Go to the search field</a></li></ul></div><div id="global_domain_bar"><div class="maxwidth"><div class="tab"><a class="root" href="https://www.gnome.org/">GNOME.org</a></div></div></div><div id="header" class="container_12"><div id="logo" class="grid_3"><a title="Go to home page" href="/"><img alt="GNOME: The Free Software Desktop Project" src="/skin/gnome-logo-devcenter.png"></img></a></div><div id="top_bar" class="grid_9"><div class="left"><div class="menu-globalnav-container"><ul id="menu-globalnav" class="menu"><li class="menu-item menu-item-type-post_type menu-item-6"><a href="/about/">About</a></li><li class="menu-item menu-item-type-post_type menu-item-23"><a href="https://help.gnome.org/users/">Users</a></li><li class="menu-item menu-item-type-post_type menu-item-40"><a href="https://help.gnome.org/admin/">Administrators</a></li><li class="current-menu-item"><a href="https://developer.gnome.org/">Developers</a></li></ul></div></div><div class="right"><form role="search" method="get" id="searchform" action="/symbols/"><div><label class="hidden" for="q">Search:
+                        </label><input type="text" value="" name="q" id="s" placeholder="Search"></input></div></form><script type="text/javascript">
+$('#s').autocomplete('/symbols/lookup/',
+        { minChars:3, matchSubset:1, matchContains:1, cacheLength:10,
+          selectOnly:1, rowsLimit:25 });
+              </script></div></div></div><div class="clearfix"></div><div id="container" class="gtk-doc two_columns"><div class="content"><div class="book">
+<div class="titlepage">
+<div>
+<div><table cellpadding="2" cellspacing="0" class="navigation" id="top" width="100%"><tbody><tr><th valign="middle"><p class="title">Pango Reference Manual</p></th></tr></tbody></table></div>
+<div><p class="releaseinfo">for Pango 1.44.7
+.
+      Online at
+      <a class="ulink" href="../../pango/stable/" target="_top">https://developer.gnome.org/pango/</a>
+    </p></div>
+<div><div class="abstract">
+<p class="title"><b>Abstract</b></p>Internationalized text layout and rendering</div></div>
+</div>
+<hr></hr>
+</div>
+<div class="toc"><dl class="toc">
+<dt><span class="chapter"><a href="pango.html">Basic Pango Interfaces</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="pango-Text-Processing.html">Rendering</a></span><span class="refpurpose"> — Functions to run the rendering pipeline</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="pango-Fonts.html">Fonts</a></span><span class="refpurpose"> — Structures representing abstract fonts</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="pango-Glyph-Storage.html">Glyphs</a></span><span class="refpurpose"> — Structures for storing information about glyphs</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="pango-Text-Attributes.html">Attributes</a></span><span class="refpurpose"> — Font and other attributes for annotating text</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="pango-Markup.html">Markup</a></span><span class="refpurpose"> — Simple markup language for text with attributes</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="pango-Layout-Objects.html">Layout Objects</a></span><span class="refpurpose"> — High-level layout driver objects</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="pango-Scripts-and-Languages.html">Scripts and Languages</a></span><span class="refpurpose"> — Identifying writing systems and languages</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="pango-Bidirectional-Text.html">Bidirectional Text</a></span><span class="refpurpose"> — Types and functions for bidirectional text</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="pango-Vertical-Text.html">Vertical Text</a></span><span class="refpurpose"> — Laying text out in vertical directions</span>
+</dt>
+</dl></dd>
+<dt><span class="chapter"><a href="rendering.html">Rendering with Pango</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="pango-Cairo-Rendering.html">Cairo Fonts and Rendering</a></span><span class="refpurpose"> — Font handling and rendering with Cairo</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="pango-Win32-Fonts-and-Rendering.html">Win32 Fonts and Rendering</a></span><span class="refpurpose"> — Font handling and rendering on Windows</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="pango-CoreText-Fonts.html">CoreText Fonts and Rendering</a></span><span class="refpurpose"> — Font handling and rendering on OS X</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="pango-FreeType-Fonts-and-Rendering.html">FreeType Fonts and Rendering</a></span><span class="refpurpose"> — Font handling and rendering with FreeType</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="pango-Xft-Fonts-and-Rendering.html">Xft Fonts and Rendering</a></span><span class="refpurpose"> — Font handling and rendering with the Xft backend</span>
+</dt>
+</dl></dd>
+<dt><span class="chapter"><a href="lowlevel.html">Low Level Functionality</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="pango-Contexts.html">Contexts</a></span><span class="refpurpose"> — Global context object</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="pango-Tab-Stops.html">Tab Stops</a></span><span class="refpurpose"> — Structures for storing tab stops</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="pango-Coverage-Maps.html">Coverage Maps</a></span><span class="refpurpose"> — Unicode character range coverage storage</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="PangoRenderer.html">PangoRenderer</a></span><span class="refpurpose"> — Rendering driver base class</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="PangoFcFontMap.html">PangoFcFontMap</a></span><span class="refpurpose"> — Base fontmap class for Fontconfig-based backends</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="PangoFcFont.html">PangoFcFont</a></span><span class="refpurpose"> — Base font class for Fontconfig-based backends</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="PangoFcDecoder.html">PangoFcDecoder</a></span><span class="refpurpose"> — Custom font encoding handling</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="pango-Miscellaneous-Utilities.html">Miscellaneous Utilities</a></span><span class="refpurpose"> — Various convenience and utility functions</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="pango-Version-Checking.html">Version Checking</a></span><span class="refpurpose"> — Tools for checking Pango version at compile- and run-time.</span>
+</dt>
+</dl></dd>
+<dt><span class="chapter"><a href="deprecated.html">Deprecated APIs</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="pango-OpenType-Font-Handling.html">OpenType Font Handling</a></span><span class="refpurpose"> — Obtaining information from OpenType tables</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="pango-Engines.html">Engines</a></span><span class="refpurpose"> — Language-specific and rendering-system-specific processing</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="PangoEngineLang.html">PangoEngineLang</a></span><span class="refpurpose"> — Rendering-system independent script engines</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="PangoEngineShape.html">PangoEngineShape</a></span><span class="refpurpose"> — Rendering-system dependent script engines</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="pango-Modules.html">Modules</a></span><span class="refpurpose"> — Support for loadable modules</span>
+</dt>
+</dl></dd>
+<dt><span class="chapter"><a href="pango-hierarchy.html">Object Hierarchy</a></span></dt>
+<dt><span class="glossary"><a href="annotation-glossary.html">Annotation Glossary</a></span></dt>
+<dt><span class="index"><a href="api-index-full.html">Index of all symbols</a></span></dt>
+<dt><span class="index"><a href="api-index-deprecated.html">Index of deprecated symbols</a></span></dt>
+<dt><span class="index"><a href="api-index-1-2.html">Index of new symbols in 1.2</a></span></dt>
+<dt><span class="index"><a href="api-index-1-4.html">Index of new symbols in 1.4</a></span></dt>
+<dt><span class="index"><a href="api-index-1-6.html">Index of new symbols in 1.6</a></span></dt>
+<dt><span class="index"><a href="api-index-1-8.html">Index of new symbols in 1.8</a></span></dt>
+<dt><span class="index"><a href="api-index-1-10.html">Index of new symbols in 1.10</a></span></dt>
+<dt><span class="index"><a href="api-index-1-12.html">Index of new symbols in 1.12</a></span></dt>
+<dt><span class="index"><a href="api-index-1-14.html">Index of new symbols in 1.14</a></span></dt>
+<dt><span class="index"><a href="api-index-1-16.html">Index of new symbols in 1.16</a></span></dt>
+<dt><span class="index"><a href="api-index-1-18.html">Index of new symbols in 1.18</a></span></dt>
+<dt><span class="index"><a href="api-index-1-20.html">Index of new symbols in 1.20</a></span></dt>
+<dt><span class="index"><a href="api-index-1-22.html">Index of new symbols in 1.22</a></span></dt>
+<dt><span class="index"><a href="api-index-1-24.html">Index of new symbols in 1.24</a></span></dt>
+<dt><span class="index"><a href="api-index-1-26.html">Index of new symbols in 1.26</a></span></dt>
+<dt><span class="index"><a href="api-index-1-30.html">Index of new symbols in 1.30</a></span></dt>
+<dt><span class="index"><a href="api-index-1-31-0.html">Index of new symbols in 1.31</a></span></dt>
+<dt><span class="index"><a href="api-index-1-32.html">Index of new symbols in 1.32</a></span></dt>
+<dt><span class="index"><a href="api-index-1-32-4.html">Index of new symbols in 1.32.4</a></span></dt>
+<dt><span class="index"><a href="api-index-1-34.html">Index of new symbols in 1.34</a></span></dt>
+<dt><span class="index"><a href="api-index-1-38.html">Index of new symbols in 1.38</a></span></dt>
+<dt><span class="index"><a href="api-index-1-42.html">Index of new symbols in 1.42</a></span></dt>
+<dt><span class="index"><a href="api-index-1-44.html">Index of new symbols in 1.44</a></span></dt>
+</dl></div>
+</div><div class="footer">
+<hr></hr>Generated by GTK-Doc V1.29</div></div><div id="footer_art" class="default"> </div></div><div class="clearfix"></div><div id="footer_grass">   </div><div id="footer"><div class="container_12"><div class="links grid_9"><div class="menu-footer-1-container"><ul id="menu-footer-1" class="menu"><li id="menu-item-88" class="menu-item menu-item-type-custom menu-item-home menu-item-88"><a href="https://www.gnome.org/">The GNOME Project</a><ul class="sub-menu"><li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-89"><a href="https://www.gnome.org/about/">About Us</a></li><li id="menu-item-90" class="menu-item menu-item-type-custom menu-item-90"><a href="https://www.gnome.org/get-involved/">Get Involved</a></li><li id="menu-item-91" class="menu-item menu-item-type-custom menu-item-91"><a href="https://www.gnome.org/teams/">Teams</a></li><li id="menu-item-92" class="menu-item menu-item-type-custom menu-item-92"><a href="https://foundation.gnome.org">The GNOME Foundation</a></li><li><a href="https://www.gnome.org/support-gnome/">Support GNOME</a></li><li><a href="https://www.gnome.org/contact/">Contact</a></li></ul></li></ul></div><div class="menu-footer-2-container"><ul id="menu-footer-2" class="menu"><li id="menu-item-99" class="menu-item menu-item-type-post_type current-menu-item page_item page-item-20 current_page_item menu-item-99"><a href="#">Resources</a><ul class="sub-menu"><li><a href="https://help.gnome.org">Documentation</a></li><li><a href="https://wiki.gnome.org">Wiki</a></li><li><a href="https://mail.gnome.org/mailman/listinfo">Mailing Lists</a></li><li><a href="https://wiki.gnome.org/GnomeIrcChannels">IRC Channels</a></li><li><a href="https://bugzilla.gnome.org/">Bug Tracker</a></li><li><a href="https://git.gnome.org/browse/">Development Code</a></li><li><a href="https://wiki.gnome.org/Jhbuild">Build Tool</a></li></ul></li></ul></div><div class="menu-footer-4-container"><ul id="menu-footer-4" class="menu"><li id="menu-item-104" class="menu-item menu-item-type-custom menu-item-104"><a href="http://www.gnome.org/news/">News</a><ul class="sub-menu"><li><a href="https://www.gnome.org/start/stable">Latest Release</a></li><li><a href="https://planet.gnome.org">Planet GNOME</a></li><li><a href="https://news.gnome.org">Development News</a></li><li><a href="https://twitter.com/gnome">Twitter</a></li></ul></li></ul></div></div><div class="links grid_3 right"><div><ul class="menu available_languages"><li><strong>This website is available in many languages</strong><ul class="sub-menu"><li><a href="/languages" title="Switching Language">Switch Language</a></li></ul></li></ul><script type="text/javascript" src="/js/language.js"></script></div></div><div id="footnotes" class="grid_9">
+                Copyright © 2005‒2014 <strong class="gnome_logo">The GNOME Project</strong><br></br><small>Optimised for standards. Hosted by <a href="http://redhat.com">Red Hat</a>.</small></div><div class="clear"></div></div></div><script type="text/javascript">
+$(document).ready(function() {
+    // Get browser
+    $.each($.browser, function(i) {
+        $('body').addClass(i);
+        return false;
+    });
+
+    // Get OS and add it as class to body tag, this then allows forcing some
+    // customisation in the CSS rules.
+    var match = navigator.userAgent.toLowerCase().match(/(win|mac|linux)/);
+    if (match) {
+        $('body').addClass(match[0]);
+    }
+});
+</script><script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(['disableCookies']);
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://webstats.gnome.org/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "6"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script></body></html>
+��b&      ^a�^a�A9|�^"�X   ,    :https://developer.gnome.org/pango/unstable/ strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Date: Sat, 11 Jan 2020 05:49:14 GMT
+Server: Apache/2.2.15 (Red Hat)
+Last-Modified: Sun, 27 Oct 2019 00:54:12 GMT
+ETag: "7cd26a-3e79-595d9d251a5d3"
+Accept-Ranges: bytes
+Content-Length: 15993
+Vary: Cookie
+Content-Type: text/html; charset=UTF-8
+ original-response-headers Date: Sat, 11 Jan 2020 05:49:14 GMT
+Server: Apache/2.2.15 (Red Hat)
+Last-Modified: Sun, 27 Oct 2019 00:54:12 GMT
+ETag: "7cd26a-3e79-595d9d251a5d3"
+Accept-Ranges: bytes
+Content-Length: 15993
+Vary: Cookie
+Content-Type: text/html; charset=UTF-8
+Connection: close
+ ctid 1 eTLD1Access 1;0;1050613573, uncompressed-len 0 net-response-time-onstart 1156 net-response-time-onstop 1338   >y

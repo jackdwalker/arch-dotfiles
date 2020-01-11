@@ -1,0 +1,21 @@
+set $wallpaper /home/user/wallpapers/nice.jpg
+
+set $background #20191f
+set $foreground #d0dfe4
+
+set $color0 #20191f
+set $color1 #6B857B
+set $color2 #A37E82
+set $color3 #76948E
+set $color4 #93A5A3
+set $color5 #D0B4B1
+set $color6 #B2C9CC
+set $color7 #d0dfe4
+set $color8 #919c9f
+set $color9 #6B857B
+set $color10 #A37E82
+set $color11 #76948E
+set $color12 #93A5A3
+set $color13 #D0B4B1
+set $color14 #B2C9CC
+set $color15 #d0dfe4
